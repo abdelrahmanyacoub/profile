@@ -1,0 +1,56 @@
+.parent {
+    background-color: gray;
+    overflow: auto;
+}
+
+.item1 {
+    background-color: teal;
+    width: 25%;
+    float: left;
+}
+
+.item2 {
+    background-color: teal;
+    width: 25%;
+    float: right;
+}
+
+.item3 {
+    background-color: teal;
+    width: 25%;
+    float: left;
+}
+
+.item4 {
+    background-color: teal;
+    width: 25%;
+    float: right;
+}
+
+.celar-fix {
+    clear: both;
+}
+
+.profile {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.profile button {
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.profile button:hover {
+    background-color: lightgray;
+    color: #fff;
+}
